@@ -1,0 +1,3 @@
+[submodule "test_med/src"]
+	path = test_med/src
+	url = https://github.com/example/repo.git

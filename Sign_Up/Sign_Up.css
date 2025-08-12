@@ -1,118 +1,117 @@
-
-/* 컨테이너 요소의 스타일 */
+/* Styles for the container element */
 .container {
-    max-width: 900px; /* 컨테이너의 최대 너비 설정 */
-    margin: 0 auto; /* 컨테이너를 수평으로 중앙 정렬 */
-    padding: 40px; /* 컨테이너 내부에 패딩 추가 */
-    margin-top: 10%; /* 뷰포트 높이에 대한 비율로 상단 여백 설정 */
-    overflow: hidden; /* 넘치는 콘텐츠 숨기기 */
+    max-width: 900px; /* Set maximum width for the container */
+    margin: 0 auto; /* Center the container horizontally */
+    padding: 40px; /* Add padding inside the container */
+    margin-top: 10%; /* Set top margin as a percentage of the viewport height */
+    overflow: hidden; /* Hide any overflowing content */
 }
 
-/* 비밀번호 가시성 아이콘의 스타일 */
+/* Styles for the password visibility icon */
 .password-visibility {
-    position: relative; /* 정상 위치에 대해 상대적인 위치 설정 */
-    top: -39px; /* 요소를 39픽셀 위로 이동 */
-    left: 92%; /* 요소를 92% 오른쪽으로 이동 */
-    cursor: pointer; /* 호버 시 커서를 포인터로 변경 */
-    font-size: 17px; /* 글꼴 크기 설정 */
+    position: relative; /* Set the position relative to its normal position */
+    top: -39px; /* Move the element 39 pixels up */
+    left: 92%; /* Move the element 92% to the right */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    font-size: 17px; /* Set font size */
 }
 
-/* 회원가입 양식의 그리드 레이아웃 스타일 */
+/* Styles for the grid layout of the signup form */
 .signup-grid {
-    display: grid; /* 요소에 그리드 레이아웃 사용 */
-    grid-template-columns: 0.1fr 1.5fr 8fr; /* 분수 너비로 열 정의 */
-    grid-gap: 10px; /* 그리드 항목 간의 간격 설정 */
+    display: grid; /* Use grid layout for the element */
+    grid-template-columns: 0.1fr 1.5fr 8fr; /* Define columns with fractional widths */
+    grid-gap: 10px; /* Set the gap between grid items */
 }
 
-/* 주요 회원가입 텍스트의 스타일 */
+/* Styles for the main signup text */
 .signup-text {
-    margin-top: 30px; /* 상단 여백 추가 */
-    grid-column: 1 / 4; /* 세 개의 열에 걸쳐 확장 */
-    text-align: center; /* 텍스트 중앙 정렬 */
+    margin-top: 30px; /* Add top margin */
+    grid-column: 1 / 4; /* Span across all three columns */
+    text-align: center; /* Center-align text */
 }
 
-/* 추가 회원가입 텍스트의 스타일 */
+/* Styles for additional signup text */
 .signup-text1 {
-    grid-column: -1 / 3; /* 끝에서 두 번째 열에서 세 번째 열까지 확장 */
-    text-align: right; /* 텍스트 오른쪽 정렬 */
+    grid-column: -1 / 3; /* Span from second to third column from the end */
+    text-align: right; /* Right-align text */
 }
 
 .signup-text1 span {
-    color: #3c79a7; /* 텍스트 색상 설정 */
-    font-weight: 600; /* 글꼴 두께를 굵게 설정 */
-    cursor: pointer; /* 호버 시 커서를 포인터로 변경 */
+    color: #3c79a7; /* Set text color */
+    font-weight: 600; /* Set font weight to bold */
+    cursor: pointer; /* Change cursor to pointer on hover */
 }
 
-/* 회원가입 양식 섹션의 스타일 */
+/* Styles for the signup form section */
 .signup-form {
-    grid-column: 2 / 4; /* 두 번째 열에서 네 번째 열까지 확장 */
+    grid-column: 2 / 4; /* Span from second to fourth column */
 }
 
-/* 전체 회원가입 컨테이너의 스타일 */
+/* Styles for the overall signup container */
 .signup {
-    flex: 1; /* 사용 가능한 공간을 채우기 위해 유연한 레이아웃 사용 */
-    background-color: #fff; /* 배경색을 흰색으로 설정 */
-    padding: 40px; /* 요소 내부에 패딩 추가 */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* 불투명도를 가진 박스 그림자 추가 */
+    flex: 1; /* Use flexible layout to fill available space */
+    background-color: #fff; /* Set background color to white */
+    padding: 40px; /* Add padding inside the element */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a box shadow with opacity */
 }
 
-/* 회원가입 제목의 스타일 */
+/* Styles for the signup heading */
 .signup h1 {
-    margin-bottom: 20px; /* 제목에 하단 여백 추가 */
-    text-align: center; /* 텍스트 중앙 정렬 */
-    color: #3c79a7; /* 텍스트 색상 설정 */
-    letter-spacing: .1em; /* 문자 간격 추가 */
+    margin-bottom: 20px; /* Add bottom margin to the heading */
+    text-align: center; /* Center-align text */
+    color: #3c79a7; /* Set text color */
+    letter-spacing: .1em; /* Add letter-spacing between characters */
 }
 
-/* 회원가입의 역할 텍스트 스타일 */
+/* Styles for the role text in signup */
 .signup-role {
-    font-size: 16px; /* 글꼴 크기 설정 */
-    margin-bottom: 10px; /* 하단 여백 추가 */
+    font-size: 16px; /* Set font size */
+    margin-bottom: 10px; /* Add bottom margin */
 }
 
-/* 회원가입 양식의 폼 그룹 스타일 */
+/* Styles for form groups in the signup form */
 .form-group {
-    margin-bottom: 20px; /* 폼 그룹에 하단 여백 추가 */
+    margin-bottom: 20px; /* Add bottom margin to form groups */
 }
 
 .form-group label {
-    display: block; /* 레이블을 블록으로 표시 */
-    margin-bottom: 5px; /* 레이블에 하단 여백 추가 */
-    font-weight: bold; /* 레이블의 글꼴 두께를 굵게 설정 */
+    display: block; /* Display labels as blocks */
+    margin-bottom: 5px; /* Add bottom margin to labels */
+    font-weight: bold; /* Set font weight to bold for labels */
 }
 
-/* 회원가입 양식의 폼 컨트롤 스타일 */
+/* Styles for form controls in the signup form */
 .form-control {
-    width: 40%; /* 폼 컨트롤의 너비 설정 */
-    padding: 8px; /* 폼 컨트롤 내부에 패딩 추가 */
-    font-size: 16px; /* 글꼴 크기 설정 */
-    border: 1px solid #ccc; /* 색상을 가진 테두리 추가 */
-    border-radius: 4px; /* 둥근 모서리를 위한 테두리 반경 추가 */
+    width: 40%; /* Set width of form controls */
+    padding: 8px; /* Add padding inside form controls */
+    font-size: 16px; /* Set font size */
+    border: 1px solid #ccc; /* Add border with color */
+    border-radius: 4px; /* Add border radius for rounded corners */
 }
 
-/* 회원가입 양식의 버튼 그룹 스타일 */
+/* Styles for button group in the signup form */
 .btn-group {
-    margin-top: .0001px; /* 버튼 그룹에 작은 상단 여백 추가 */
-    margin-bottom: 20px; /* 버튼 그룹에 하단 여백 추가 */
+    margin-top: .0001px; /* Add a small top margin to button group */
+    margin-bottom: 20px; /* Add bottom margin to button group */
 }
 
-/* 회원가입 양식의 버튼 스타일 */
+/* Styles for buttons in the signup form */
 .btn {
-    padding: 10px 20px; /* 버튼에 패딩 설정 */
-    font-size: 16px; /* 버튼의 글꼴 크기 설정 */
-    border: none; /* 버튼 테두리 제거 */
-    border-radius: 4px; /* 둥근 모서리를 위한 테두리 반경 추가 */
-    cursor: pointer; /* 호버 시 커서를 포인터로 변경 */
+    padding: 10px 20px; /* Set padding for buttons */
+    font-size: 16px; /* Set font size for buttons */
+    border: none; /* Remove button borders */
+    border-radius: 4px; /* Add border radius for rounded corners */
+    cursor: pointer; /* Change cursor to pointer on hover */
 }
 
-/* 회원가입 양식의 기본 버튼 스타일 */
+/* Styles for primary button in the signup form */
 .btn-primary {
-    background-color: #007bff; /* 기본 버튼의 배경색 설정 */
-    color: #fff; /* 기본 버튼의 텍스트 색상 설정 */
+    background-color: #007bff; /* Set background color for primary button */
+    color: #fff; /* Set text color for primary button */
 }
 
-/* 회원가입 양식의 위험 버튼 스타일 */
+/* Styles for danger button in the signup form */
 .btn-danger {
-    background-color: #dc3545; /* 위험 버튼의 배경색 설정 */
-    color: #fff; /* 위험 버튼의 텍스트 색상 설정 */
+    background-color: #dc3545; /* Set background color for danger button */
+    color: #fff; /* Set text color for danger button */
 }
